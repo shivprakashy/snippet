@@ -1,7 +1,5 @@
-var app = require('express')();
-var i=0;
-app.get('/', function(req,res){
-res.send('its working');
-console.log('served req '+ ++i);
-});
-app.listen(3000);
+const fs = require('fs');
+fs.readFile('./index.html', 'utf-8', fileReader);
+function fileReader(err, data){
+console.log(data);
+};
