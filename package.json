@@ -1,0 +1,26 @@
+{
+  "name": "snippet",
+  "version": "1.0.0",
+  "description": "Cloud base code snippet/module collaborator",
+  "main": "index.js",
+  "start":"node index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivprakashy/snippet.git"
+  },
+  "keywords": [
+    "Snippet",
+    "Code",
+    "QR",
+    "integration"
+  ],
+  "author": "Shiv Prakash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shivprakashy/snippet/issues"
+  },
+  "homepage": "https://github.com/shivprakashy/snippet#readme"
+}
